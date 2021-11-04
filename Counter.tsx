@@ -11,7 +11,6 @@ const Counter:FC<CounterProps> = (props) => {
     return (
         <div>
             <button onClick={onMinus}>-</button>
-            <b>{value}</b>
             <button onClick={onPlus}>+</button>
         </div>
     );
